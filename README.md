@@ -1,7 +1,7 @@
 # A* Path Finding Algorithm for 2D Grid World
 ## AIM
 
-To develop a code to find the route from the source to the destination point using A* algorithm for 2D grid world.
+To develop a code to find the route from the source to the destination point using the A* algorithm for a 2D grid world.
 
 ## THEORY
 A* assigns a weight to each open node equal to the weight of the edge to that node plus the approximate distance between that node and the finish. This approximate distance is found by the heuristic, and represents a minimum possible distance between that node and the end.
@@ -13,17 +13,17 @@ Import required packages.
 
 
 ### STEP 2:
-Create class with appropriate function.
+Create a class with the appropriate functions.
 
 
 ### STEP 3:
-Build a 2D grid world with initial state , goal state and obstacles.
+Build a 2D grid world with the initial state, goal state, and obstacles.
 
 ### STEP 4:
 Mention its evaluation function f(n) = g(n) + h(n)
 
 ### STEP 5:
-The algorithm finds best optimal solution.
+The algorithm finds the best optimal solution.
 
 
 ## 2D grid world 
@@ -199,4 +199,4 @@ The time complexity of A* depends on the heuristic.
 ~~~
 
 ## RESULT:
-Therefore, the algorithm finds the best path to reach final goal using Informed (Heuristic) Search Strategies.
+Therefore, the algorithm finds the best path to reach the final goal using Informed (Heuristic) Search Strategies.
