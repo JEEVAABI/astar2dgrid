@@ -195,7 +195,8 @@ path_states(solution1)
 ~~~
 Explain the Completeness and complexity of the algorithm:
 This algorithm is complete if it guarantees to return a correct answer for any arbitrary input (or, if no answer exists, it guarantees to return failure).
-The time complexity of A* depends on the heuristic. 
+The time complexity of A* depends on the heuristic.
+~~~
 
 ## RESULT:
 Therefore, the algorithm finds the best path to reach final goal using Informed (Heuristic) Search Strategies.
